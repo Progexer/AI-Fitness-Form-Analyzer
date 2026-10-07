@@ -1,0 +1,99 @@
+{
+  "model_type": "RandomForestClassifier",
+  "accuracy": 0.7868,
+  "macro_f1": 0.7728,
+  "weighted_f1": 0.7797,
+  "classes": [
+    "bicep_curl",
+    "push_up",
+    "shoulder_press",
+    "squat"
+  ],
+  "confusion_matrix": [
+    [
+      307,
+      10,
+      24,
+      398
+    ],
+    [
+      15,
+      810,
+      4,
+      10
+    ],
+    [
+      11,
+      0,
+      675,
+      62
+    ],
+    [
+      67,
+      0,
+      53,
+      621
+    ]
+  ],
+  "classification_report": {
+    "bicep_curl": {
+      "precision": 0.7675,
+      "recall": 0.41542625169147496,
+      "f1-score": 0.5390693590869183,
+      "support": 739.0
+    },
+    "push_up": {
+      "precision": 0.9878048780487805,
+      "recall": 0.965435041716329,
+      "f1-score": 0.976491862567812,
+      "support": 839.0
+    },
+    "shoulder_press": {
+      "precision": 0.8928571428571429,
+      "recall": 0.9024064171122995,
+      "f1-score": 0.8976063829787234,
+      "support": 748.0
+    },
+    "squat": {
+      "precision": 0.5692025664527957,
+      "recall": 0.8380566801619433,
+      "f1-score": 0.6779475982532751,
+      "support": 741.0
+    },
+    "accuracy": 0.7867623084447343,
+    "macro avg": {
+      "precision": 0.8043411468396797,
+      "recall": 0.7803310976705118,
+      "f1-score": 0.7727788007216821,
+      "support": 3067.0
+    },
+    "weighted avg": {
+      "precision": 0.8104294220024751,
+      "recall": 0.7867623084447343,
+      "f1-score": 0.7797253582762925,
+      "support": 3067.0
+    }
+  },
+  "feature_importances": {
+    "lm_61": 0.05168,
+    "lm_55": 0.04293,
+    "lm_67": 0.03667,
+    "lm_58": 0.03049,
+    "lm_31": 0.03021,
+    "lm_28": 0.02721,
+    "lm_49": 0.02664,
+    "lm_46": 0.02559,
+    "hand_elevation_r_norm": 0.02536,
+    "lm_16": 0.02416,
+    "lm_52": 0.02344,
+    "lm_1": 0.02296,
+    "lm_64": 0.02284,
+    "lm_89": 0.02101,
+    "lm_19": 0.02014,
+    "avg_hand_elevation_norm": 0.01967,
+    "lm_83": 0.01906,
+    "lm_22": 0.01862,
+    "hand_elevation_l_norm": 0.01805,
+    "lm_13": 0.01782
+  }
+}

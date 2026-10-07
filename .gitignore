@@ -1,0 +1,80 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Project progress & local scratch
+starter_progress/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend & Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Datasets & Large Model Weights
+Dataset/
+data/raw/
+data/interim/
+data/processed/
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+models/*.h5
+models/*.onnx
+
+# Reports
+reports/model_evaluation/*.png
+reports/model_evaluation/*.pdf
+
+# Logs & Environment Secrets
+*.log
+logs/
+.env
+.env.local
+.env.production
+*.pem
+*.key
+
+# Docker & Notebooks
+docker-compose.override.yml
+.ipynb_checkpoints/

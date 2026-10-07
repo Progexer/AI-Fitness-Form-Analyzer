@@ -1,0 +1,417 @@
+{
+  "dataset_name": "Real-Time Exercise Recognition Dataset",
+  "location": "D:\\AIML_Project\\Dataset\\Dataset2",
+  "inspection_date": "2026-09-12T01:35:22.155579",
+  "folders": {
+    "final_kaggle_with_additional_video": {
+      "exercises": {
+        "barbell biceps curl": {
+          "video_count": 25,
+          "json_count": 0,
+          "extensions": [
+            ".mp4"
+          ],
+          "total_size_bytes": 22784050,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 3.74,
+          "avg_fps": 29.3,
+          "resolutions": [
+            "1280\u00d7720",
+            "1920\u00d71080"
+          ],
+          "sample_filenames": [
+            "barbell biceps curl_1.mp4",
+            "barbell biceps curl_10.mp4",
+            "barbell biceps curl_11.mp4",
+            "barbell biceps curl_12.mp4",
+            "barbell biceps curl_13.mp4"
+          ]
+        },
+        "hammer curl": {
+          "video_count": 19,
+          "json_count": 0,
+          "extensions": [
+            ".mov",
+            ".mp4"
+          ],
+          "total_size_bytes": 382370587,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 9.77,
+          "avg_fps": 30.0,
+          "resolutions": [
+            "1080\u00d71920",
+            "1080\u00d7608",
+            "1280\u00d7720",
+            "1920\u00d71080"
+          ],
+          "sample_filenames": [
+            "hammer curl_1.MOV",
+            "hammer curl_10.mp4",
+            "hammer curl_11.mp4",
+            "hammer curl_12.mp4",
+            "hammer curl_13.mp4"
+          ]
+        },
+        "push-up": {
+          "video_count": 25,
+          "json_count": 0,
+          "extensions": [
+            ".mp4"
+          ],
+          "total_size_bytes": 14806990,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 4.64,
+          "avg_fps": 30.0,
+          "resolutions": [
+            "1920\u00d71080"
+          ],
+          "sample_filenames": [
+            "push-up_1.mp4",
+            "push-up_10.mp4",
+            "push-up_11.mp4",
+            "push-up_12.mp4",
+            "push-up_13.mp4"
+          ]
+        },
+        "shoulder press": {
+          "video_count": 25,
+          "json_count": 0,
+          "extensions": [
+            ".mov",
+            ".mp4"
+          ],
+          "total_size_bytes": 334224479,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 11.57,
+          "avg_fps": 28.3,
+          "resolutions": [
+            "1280\u00d7720",
+            "1920\u00d71080",
+            "640\u00d7360"
+          ],
+          "sample_filenames": [
+            "shoulder press_1.mp4",
+            "shoulder press_10.mp4",
+            "shoulder press_11.mp4",
+            "shoulder press_12.mp4",
+            "shoulder press_13.mp4"
+          ]
+        },
+        "squat": {
+          "video_count": 25,
+          "json_count": 0,
+          "extensions": [
+            ".mov",
+            ".mp4"
+          ],
+          "total_size_bytes": 451653709,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 11.9,
+          "avg_fps": 26.9,
+          "resolutions": [
+            "1280\u00d7720",
+            "1920\u00d71080",
+            "596\u00d7336",
+            "640\u00d7360"
+          ],
+          "sample_filenames": [
+            "squat_1.MOV",
+            "squat_10.mp4",
+            "squat_11.mp4",
+            "squat_12.mp4",
+            "squat_13.mp4"
+          ]
+        }
+      },
+      "total_videos": 119,
+      "total_size_bytes": 1205839815
+    },
+    "my_test_video_1": {
+      "exercises": {
+        "barbell biceps curl": {
+          "video_count": 4,
+          "json_count": 0,
+          "extensions": [
+            ".mp4"
+          ],
+          "total_size_bytes": 61945022,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 13.17,
+          "avg_fps": 30.0,
+          "resolutions": [
+            "1280\u00d7720"
+          ],
+          "sample_filenames": [
+            "barbell biceps curl_1.mp4",
+            "barbell biceps curl_2.mp4",
+            "barbell biceps curl_3.mp4",
+            "barbell biceps curl_4.mp4"
+          ]
+        },
+        "push-up": {
+          "video_count": 3,
+          "json_count": 0,
+          "extensions": [
+            ".mp4"
+          ],
+          "total_size_bytes": 42898057,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 12.78,
+          "avg_fps": 30.0,
+          "resolutions": [
+            "1280\u00d7720"
+          ],
+          "sample_filenames": [
+            "push-up_1.mp4",
+            "push-up_2.mp4",
+            "push-up_3.mp4"
+          ]
+        },
+        "shoulder press": {
+          "video_count": 4,
+          "json_count": 0,
+          "extensions": [
+            ".mp4"
+          ],
+          "total_size_bytes": 67853016,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 14.44,
+          "avg_fps": 30.0,
+          "resolutions": [
+            "1280\u00d7720"
+          ],
+          "sample_filenames": [
+            "shoulder press_1.mp4",
+            "shoulder press_2.mp4",
+            "shoulder press_3.mp4",
+            "shoulder press_4.mp4"
+          ]
+        },
+        "squat": {
+          "video_count": 4,
+          "json_count": 0,
+          "extensions": [
+            ".mp4"
+          ],
+          "total_size_bytes": 69627922,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 14.79,
+          "avg_fps": 30.0,
+          "resolutions": [
+            "1280\u00d7720"
+          ],
+          "sample_filenames": [
+            "squat_1.mp4",
+            "squat_2.mp4",
+            "squat_3.mp4",
+            "squat_4.mp4"
+          ]
+        }
+      },
+      "total_videos": 15,
+      "total_size_bytes": 242324017
+    },
+    "similar_dataset": {
+      "exercises": {
+        "barbell biceps curl": {
+          "video_count": 18,
+          "json_count": 0,
+          "extensions": [
+            ".mov",
+            ".mp4"
+          ],
+          "total_size_bytes": 207830075,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 10.06,
+          "avg_fps": 27.9,
+          "resolutions": [
+            "1080\u00d71920",
+            "1280\u00d7720",
+            "1440\u00d71080",
+            "1920\u00d71080",
+            "3840\u00d72026",
+            "720\u00d71280"
+          ],
+          "sample_filenames": [
+            "0d402adf-578c-4c26-ba50-3b28a6f0e648.mp4",
+            "1a3e6f0d-fb99-4e4d-b80f-831c7f38aca9.mp4",
+            "27d82bac-ce83-4f91-a381-c11dd0bf6932.mp4",
+            "3f034ee8-792b-4646-8746-c0dbbf6e5b50.mp4",
+            "6933f339-2ee5-4e59-9031-8bfee0f6e900.mp4"
+          ]
+        },
+        "push-up": {
+          "video_count": 18,
+          "json_count": 0,
+          "extensions": [
+            ".avi",
+            ".mp4"
+          ],
+          "total_size_bytes": 30800842,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 7.29,
+          "avg_fps": 34.1,
+          "resolutions": [
+            "1280\u00d7720",
+            "1920\u00d71080",
+            "320\u00d7240",
+            "608\u00d71080",
+            "854\u00d7480"
+          ],
+          "sample_filenames": [
+            "01b09356-3985-474f-827f-20c79cfcda78.mp4",
+            "02dd7b9d-c7fe-41b8-993a-e250b07a5ceb.mp4",
+            "0b78db8e-3c32-4248-bbff-b483f9d910d3.mp4",
+            "10cad66c-a298-4de5-ac55-16ff825f8101.mp4",
+            "53f39e2a-4ca3-45d1-af84-6ddfde7ff818.mp4"
+          ]
+        },
+        "shoulder press": {
+          "video_count": 18,
+          "json_count": 0,
+          "extensions": [
+            ".mov",
+            ".mp4"
+          ],
+          "total_size_bytes": 162502968,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 10.21,
+          "avg_fps": 28.1,
+          "resolutions": [
+            "1080\u00d71918",
+            "1080\u00d71920",
+            "1280\u00d7720",
+            "1920\u00d71012",
+            "1920\u00d71080",
+            "480\u00d7268",
+            "608\u00d71080",
+            "640\u00d7360"
+          ],
+          "sample_filenames": [
+            "17496a37-c1f7-4105-9c07-e7cfbca06106.mp4",
+            "237de26b-2b1e-4f62-9844-b30fc9860c72.mp4",
+            "30fe126e-0985-48af-813f-65c30d49913d.mp4",
+            "51f72e68-ec28-4272-b15c-45586c244398.mp4",
+            "555859e7-8a16-4494-8dca-dff27cbdd9c8.mp4"
+          ]
+        },
+        "squat": {
+          "video_count": 18,
+          "json_count": 0,
+          "extensions": [
+            ".avi",
+            ".mp4"
+          ],
+          "total_size_bytes": 13842201,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 6.83,
+          "avg_fps": 26.3,
+          "resolutions": [
+            "1280\u00d7720",
+            "1920\u00d71080",
+            "320\u00d7240"
+          ],
+          "sample_filenames": [
+            "1e2c254b-0d5a-4fd6-a6d4-2681333d927b.mp4",
+            "2a516b63-bccf-490e-807a-e6102303381f.mp4",
+            "385c01f2-e604-46d4-a84b-949b733395dd.mp4",
+            "6dddd176-2460-48cf-bd01-3eaaa0dc754f.mp4",
+            "71ef5d06-bfea-449b-8ff3-b428ae7dbaa7.mp4"
+          ]
+        }
+      },
+      "total_videos": 72,
+      "total_size_bytes": 414976086
+    },
+    "synthetic_dataset": {
+      "exercises": {
+        "barbell biceps curl": {
+          "video_count": 100,
+          "json_count": 100,
+          "extensions": [
+            ".mp4"
+          ],
+          "total_size_bytes": 2459983,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 13.68,
+          "avg_fps": 24.0,
+          "resolutions": [
+            "224\u00d7224"
+          ],
+          "sample_filenames": [
+            "000000.mp4",
+            "000001.mp4",
+            "000002.mp4",
+            "000003.mp4",
+            "000004.mp4"
+          ]
+        },
+        "push-up": {
+          "video_count": 100,
+          "json_count": 100,
+          "extensions": [
+            ".mp4"
+          ],
+          "total_size_bytes": 2370765,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 13.33,
+          "avg_fps": 24.0,
+          "resolutions": [
+            "224\u00d7224"
+          ],
+          "sample_filenames": [
+            "000000.mp4",
+            "000001.mp4",
+            "000002.mp4",
+            "000003.mp4",
+            "000004.mp4"
+          ]
+        },
+        "shoulder press": {
+          "video_count": 100,
+          "json_count": 100,
+          "extensions": [
+            ".mp4"
+          ],
+          "total_size_bytes": 2611414,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 15.03,
+          "avg_fps": 24.0,
+          "resolutions": [
+            "224\u00d7224"
+          ],
+          "sample_filenames": [
+            "000000.mp4",
+            "000001.mp4",
+            "000002.mp4",
+            "000003.mp4",
+            "000004.mp4"
+          ]
+        },
+        "squat": {
+          "video_count": 100,
+          "json_count": 100,
+          "extensions": [
+            ".mp4"
+          ],
+          "total_size_bytes": 3909320,
+          "corrupted_count": 0,
+          "avg_duration_seconds": 19.13,
+          "avg_fps": 24.0,
+          "resolutions": [
+            "224\u00d7224"
+          ],
+          "sample_filenames": [
+            "000000.mp4",
+            "000001.mp4",
+            "000002.mp4",
+            "000003.mp4",
+            "000004.mp4"
+          ]
+        }
+      },
+      "total_videos": 400,
+      "total_size_bytes": 11351482
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "random_forest": {
+    "model": "Random Forest",
+    "task": "Exercise Recognition",
+    "test_accuracy": 0.9522,
+    "macro_f1": 0.9516,
+    "latency_ms": 26.417,
+    "fps": 37.9,
+    "status": "Trained & Validated"
+  },
+  "xgboost": {
+    "model": "XGBoost",
+    "task": "Biomechanical Form & Error Classification",
+    "latency_ms": 0.424,
+    "fps": 2357.5,
+    "status": "Trained & Validated"
+  },
+  "bilstm": {
+    "model": "Bi-LSTM (PyTorch)",
+    "task": "Temporal Sequence Exercise Classification",
+    "val_accuracy": 0.8386,
+    "val_f1": 0.8498,
+    "latency_ms": 1.481,
+    "fps": 675.4,
+    "status": "Trained & Validated"
+  }
+}

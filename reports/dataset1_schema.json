@@ -1,0 +1,2331 @@
+{
+  "dataset_name": "Physical Exercise Recognition | Time Series Dataset",
+  "location": "D:\\AIML_Project\\Dataset\\Dataset1",
+  "inspection_date": "2026-09-12T01:35:17.436676",
+  "files": {
+    "angles": {
+      "filename": "angles.csv",
+      "shape": [
+        83922,
+        9
+      ],
+      "size_bytes": 6307814,
+      "columns": {
+        "vid_id": {
+          "dtype": "int64",
+          "non_null_count": 83922,
+          "unique_count": 448,
+          "sample_values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "frame_order": {
+          "dtype": "int64",
+          "non_null_count": 83922,
+          "unique_count": 301,
+          "sample_values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "right_elbow_right_shoulder_right_hip": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83590,
+          "sample_values": [
+            "16.926802",
+            "14.199318",
+            "18.0658",
+            "23.270214",
+            "22.83168"
+          ]
+        },
+        "left_elbow_left_shoulder_left_hip": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83603,
+          "sample_values": [
+            "7.667874",
+            "8.954973",
+            "10.315741",
+            "17.33614",
+            "13.822096"
+          ]
+        },
+        "right_knee_mid_hip_left_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83493,
+          "sample_values": [
+            "18.982162",
+            "18.966124",
+            "17.527954",
+            "17.195545",
+            "17.355429"
+          ]
+        },
+        "right_hip_right_knee_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83235,
+          "sample_values": [
+            "112.747505",
+            "109.70719",
+            "114.5621",
+            "117.67481",
+            "117.53672"
+          ]
+        },
+        "left_hip_left_knee_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83271,
+          "sample_values": [
+            "112.62553",
+            "109.76263",
+            "112.08965",
+            "115.43172",
+            "117.96766"
+          ]
+        },
+        "right_wrist_right_elbow_right_shoulder": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83208,
+          "sample_values": [
+            "112.0993",
+            "110.645454",
+            "113.34035",
+            "114.63453",
+            "112.30639"
+          ]
+        },
+        "left_wrist_left_elbow_left_shoulder": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83263,
+          "sample_values": [
+            "101.05565",
+            "102.00027",
+            "104.09502",
+            "107.38297",
+            "98.39078"
+          ]
+        }
+      },
+      "missing_values": 0,
+      "duplicate_rows": 0
+    },
+    "calculated_3d_distances": {
+      "filename": "calculated_3d_distances.csv",
+      "shape": [
+        83922,
+        18
+      ],
+      "size_bytes": 13462681,
+      "columns": {
+        "vid_id": {
+          "dtype": "int64",
+          "non_null_count": 83922,
+          "unique_count": 448,
+          "sample_values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "frame_order": {
+          "dtype": "int64",
+          "non_null_count": 83922,
+          "unique_count": 301,
+          "sample_values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "left_shoulder_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83591,
+          "sample_values": [
+            "44.616184",
+            "44.785343",
+            "44.907803",
+            "45.922737",
+            "40.62046"
+          ]
+        },
+        "right_shoulder_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83594,
+          "sample_values": [
+            "45.58366",
+            "45.319645",
+            "45.655598",
+            "47.054585",
+            "43.18325"
+          ]
+        },
+        "left_hip_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83535,
+          "sample_values": [
+            "74.31164",
+            "76.10876",
+            "76.511536",
+            "79.295685",
+            "77.09547"
+          ]
+        },
+        "right_hip_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83571,
+          "sample_values": [
+            "75.78382",
+            "76.79507",
+            "78.169975",
+            "80.862114",
+            "79.10895"
+          ]
+        },
+        "left_hip_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83560,
+          "sample_values": [
+            "33.730007",
+            "31.981766",
+            "39.03759",
+            "49.87769",
+            "47.636646"
+          ]
+        },
+        "right_hip_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83582,
+          "sample_values": [
+            "42.13161",
+            "39.302784",
+            "43.101467",
+            "51.389236",
+            "49.443848"
+          ]
+        },
+        "left_shoulder_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83461,
+          "sample_values": [
+            "122.58039",
+            "123.38482",
+            "128.73569",
+            "139.14879",
+            "135.30775"
+          ]
+        },
+        "right_shoulder_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83468,
+          "sample_values": [
+            "127.11895",
+            "126.65802",
+            "132.46251",
+            "141.82007",
+            "138.79196"
+          ]
+        },
+        "left_hip_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83572,
+          "sample_values": [
+            "51.88966",
+            "49.100586",
+            "51.61608",
+            "59.323757",
+            "58.721348"
+          ]
+        },
+        "right_hip_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83540,
+          "sample_values": [
+            "34.165817",
+            "33.16866",
+            "40.597023",
+            "51.28837",
+            "47.935104"
+          ]
+        },
+        "left_elbow_right_elbow": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83631,
+          "sample_values": [
+            "29.366705",
+            "28.751902",
+            "27.868805",
+            "28.674877",
+            "30.19299"
+          ]
+        },
+        "left_knee_right_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83658,
+          "sample_values": [
+            "11.997074",
+            "11.787817",
+            "10.669149",
+            "10.537262",
+            "10.41341"
+          ]
+        },
+        "left_wrist_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83657,
+          "sample_values": [
+            "34.49884",
+            "35.02561",
+            "36.084465",
+            "39.659523",
+            "41.268585"
+          ]
+        },
+        "left_ankle_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83668,
+          "sample_values": [
+            "9.536471",
+            "9.934409",
+            "9.258501",
+            "9.5382595",
+            "9.376397"
+          ]
+        },
+        "left_hip_avg_left_wrist_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83635,
+          "sample_values": [
+            "34.766296",
+            "34.764217",
+            "34.062817",
+            "34.75624",
+            "30.759424"
+          ]
+        },
+        "right_hip_avg_right_wrist_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83626,
+          "sample_values": [
+            "34.263794",
+            "33.39555",
+            "33.561043",
+            "34.213974",
+            "31.533577"
+          ]
+        }
+      },
+      "missing_values": 0,
+      "duplicate_rows": 0
+    },
+    "labels": {
+      "filename": "labels.csv",
+      "shape": [
+        448,
+        2
+      ],
+      "size_bytes": 5532,
+      "columns": {
+        "vid_id": {
+          "dtype": "int64",
+          "non_null_count": 448,
+          "unique_count": 448,
+          "sample_values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "class": {
+          "dtype": "str",
+          "non_null_count": 448,
+          "unique_count": 5,
+          "sample_values": [
+            "jumping_jack",
+            "pull_up",
+            "push_up",
+            "situp",
+            "squat"
+          ]
+        }
+      },
+      "missing_values": 0,
+      "duplicate_rows": 0
+    },
+    "landmarks": {
+      "filename": "landmarks.csv",
+      "shape": [
+        83922,
+        101
+      ],
+      "size_bytes": 85782666,
+      "columns": {
+        "vid_id": {
+          "dtype": "int64",
+          "non_null_count": 83922,
+          "unique_count": 448,
+          "sample_values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "frame_order": {
+          "dtype": "int64",
+          "non_null_count": 83922,
+          "unique_count": 301,
+          "sample_values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "x_nose": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83737,
+          "sample_values": [
+            "-0.6458509",
+            "-0.29047298",
+            "-0.3781558",
+            "-0.0042110146",
+            "0.21526238"
+          ]
+        },
+        "y_nose": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83193,
+          "sample_values": [
+            "-59.99263",
+            "-61.06931",
+            "-61.102",
+            "-61.846817",
+            "-59.717796"
+          ]
+        },
+        "z_nose": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83727,
+          "sample_values": [
+            "-80.985",
+            "-78.4787",
+            "-86.33219",
+            "-98.9491",
+            "-96.07627"
+          ]
+        },
+        "x_left_eye_inner": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83736,
+          "sample_values": [
+            "0.5604641",
+            "0.8813095",
+            "0.96860325",
+            "1.4194663",
+            "1.4958761"
+          ]
+        },
+        "y_left_eye_inner": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83166,
+          "sample_values": [
+            "-62.55525",
+            "-63.67481",
+            "-63.431263",
+            "-64.42455",
+            "-62.19619"
+          ]
+        },
+        "z_left_eye_inner": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83731,
+          "sample_values": [
+            "-76.38421",
+            "-73.719315",
+            "-81.922356",
+            "-94.67355",
+            "-91.90727"
+          ]
+        },
+        "x_left_eye": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83733,
+          "sample_values": [
+            "1.3626087",
+            "1.6396329",
+            "1.7886573",
+            "2.1026726",
+            "2.157559"
+          ]
+        },
+        "y_left_eye": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83174,
+          "sample_values": [
+            "-62.543415",
+            "-63.648945",
+            "-63.423435",
+            "-64.361015",
+            "-62.149612"
+          ]
+        },
+        "z_left_eye": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83737,
+          "sample_values": [
+            "-76.38174",
+            "-73.71788",
+            "-81.92055",
+            "-94.6692",
+            "-91.905106"
+          ]
+        },
+        "x_left_eye_outer": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83732,
+          "sample_values": [
+            "1.9466951",
+            "2.199054",
+            "2.3845415",
+            "2.6906612",
+            "2.7462149"
+          ]
+        },
+        "y_left_eye_outer": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83170,
+          "sample_values": [
+            "-62.432976",
+            "-63.530403",
+            "-63.350002",
+            "-64.24942",
+            "-62.07076"
+          ]
+        },
+        "z_left_eye_outer": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83731,
+          "sample_values": [
+            "-76.3819",
+            "-73.717125",
+            "-81.92332",
+            "-94.67441",
+            "-91.91154"
+          ]
+        },
+        "x_right_eye_inner": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83732,
+          "sample_values": [
+            "-1.824263",
+            "-1.4756736",
+            "-1.5426731",
+            "-1.1258945",
+            "-1.0483516"
+          ]
+        },
+        "y_right_eye_inner": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83206,
+          "sample_values": [
+            "-62.312202",
+            "-63.36599",
+            "-63.163673",
+            "-64.10392",
+            "-62.016384"
+          ]
+        },
+        "z_right_eye_inner": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83745,
+          "sample_values": [
+            "-77.34051",
+            "-74.58266",
+            "-82.56537",
+            "-95.08294",
+            "-92.95094"
+          ]
+        },
+        "x_right_eye": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83732,
+          "sample_values": [
+            "-2.6609955",
+            "-2.3498347",
+            "-2.4024591",
+            "-2.1681137",
+            "-2.015137"
+          ]
+        },
+        "y_right_eye": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83205,
+          "sample_values": [
+            "-62.112595",
+            "-63.129837",
+            "-62.982796",
+            "-63.822777",
+            "-61.824715"
+          ]
+        },
+        "z_right_eye": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83729,
+          "sample_values": [
+            "-77.349",
+            "-74.588936",
+            "-82.574554",
+            "-95.097534",
+            "-92.965225"
+          ]
+        },
+        "x_right_eye_outer": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83734,
+          "sample_values": [
+            "-3.4569702",
+            "-3.0943406",
+            "-3.1987705",
+            "-2.9403648",
+            "-2.8110476"
+          ]
+        },
+        "y_right_eye_outer": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83173,
+          "sample_values": [
+            "-61.828804",
+            "-62.86121",
+            "-62.734528",
+            "-63.501602",
+            "-61.623222"
+          ]
+        },
+        "z_right_eye_outer": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83731,
+          "sample_values": [
+            "-77.3485",
+            "-74.58703",
+            "-82.574875",
+            "-95.097885",
+            "-92.96466"
+          ]
+        },
+        "x_left_ear": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83724,
+          "sample_values": [
+            "2.989569",
+            "3.2640505",
+            "3.5998788",
+            "3.9588172",
+            "3.8273022"
+          ]
+        },
+        "y_left_ear": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83126,
+          "sample_values": [
+            "-60.542645",
+            "-61.494858",
+            "-61.425137",
+            "-62.207146",
+            "-60.338135"
+          ]
+        },
+        "z_left_ear": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83732,
+          "sample_values": [
+            "-47.39664",
+            "-44.665066",
+            "-53.781845",
+            "-66.347885",
+            "-63.331924"
+          ]
+        },
+        "x_right_ear": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83724,
+          "sample_values": [
+            "-4.697913",
+            "-4.365295",
+            "-4.3094683",
+            "-4.212977",
+            "-4.079264"
+          ]
+        },
+        "y_right_ear": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83180,
+          "sample_values": [
+            "-60.102783",
+            "-60.951866",
+            "-60.874928",
+            "-61.502934",
+            "-59.610588"
+          ]
+        },
+        "z_right_ear": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83747,
+          "sample_values": [
+            "-52.24263",
+            "-49.109596",
+            "-57.187756",
+            "-68.888916",
+            "-68.72286"
+          ]
+        },
+        "x_mouth_left": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83744,
+          "sample_values": [
+            "0.96722394",
+            "1.2737361",
+            "1.346518",
+            "1.6528709",
+            "1.7696395"
+          ]
+        },
+        "y_mouth_left": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83235,
+          "sample_values": [
+            "-56.71856",
+            "-57.761627",
+            "-57.62824",
+            "-58.235",
+            "-56.37771"
+          ]
+        },
+        "z_mouth_left": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83732,
+          "sample_values": [
+            "-70.09636",
+            "-67.63869",
+            "-75.7604",
+            "-88.28562",
+            "-85.15724"
+          ]
+        },
+        "x_mouth_right": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83737,
+          "sample_values": [
+            "-2.2262666",
+            "-1.8864969",
+            "-1.9397374",
+            "-1.6947356",
+            "-1.3679397"
+          ]
+        },
+        "y_mouth_right": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83229,
+          "sample_values": [
+            "-56.68729",
+            "-57.7791",
+            "-57.49693",
+            "-58.032356",
+            "-56.04672"
+          ]
+        },
+        "z_mouth_right": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83731,
+          "sample_values": [
+            "-71.504684",
+            "-68.9341",
+            "-76.759575",
+            "-89.03664",
+            "-86.72033"
+          ]
+        },
+        "x_left_shoulder": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83706,
+          "sample_values": [
+            "10.046103",
+            "10.2653",
+            "10.275087",
+            "10.709768",
+            "9.94735"
+          ]
+        },
+        "y_left_shoulder": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 82325,
+          "sample_values": [
+            "-39.195942",
+            "-39.092106",
+            "-38.88581",
+            "-38.89342",
+            "-39.501617"
+          ]
+        },
+        "z_left_shoulder": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83730,
+          "sample_values": [
+            "-24.809559",
+            "-23.120546",
+            "-32.37296",
+            "-44.297253",
+            "-40.711086"
+          ]
+        },
+        "x_right_shoulder": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83705,
+          "sample_values": [
+            "-11.90165",
+            "-11.630168",
+            "-11.614682",
+            "-11.742898",
+            "-11.71087"
+          ]
+        },
+        "y_right_shoulder": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 82294,
+          "sample_values": [
+            "-40.78252",
+            "-40.896255",
+            "-41.102974",
+            "-41.09989",
+            "-40.478928"
+          ]
+        },
+        "z_right_shoulder": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83737,
+          "sample_values": [
+            "-34.48215",
+            "-31.483227",
+            "-37.850357",
+            "-47.29306",
+            "-46.408463"
+          ]
+        },
+        "x_left_elbow": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83715,
+          "sample_values": [
+            "11.512819",
+            "12.119037",
+            "12.093607",
+            "12.802847",
+            "12.858505"
+          ]
+        },
+        "y_left_elbow": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83631,
+          "sample_values": [
+            "-16.912388",
+            "-16.169744",
+            "-16.023012",
+            "-15.868261",
+            "-19.055218"
+          ]
+        },
+        "z_left_elbow": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83717,
+          "sample_values": [
+            "-8.672732",
+            "-7.1201406",
+            "-16.31424",
+            "-28.45541",
+            "-24.637287"
+          ]
+        },
+        "x_right_elbow": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83724,
+          "sample_values": [
+            "-13.676053",
+            "-13.373364",
+            "-14.1555805",
+            "-15.307692",
+            "-16.017382"
+          ]
+        },
+        "y_right_elbow": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83638,
+          "sample_values": [
+            "-17.177427",
+            "-17.337593",
+            "-17.161877",
+            "-16.60104",
+            "-18.013737"
+          ]
+        },
+        "z_right_elbow": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83717,
+          "sample_values": [
+            "-23.767557",
+            "-20.365725",
+            "-25.606895",
+            "-34.068714",
+            "-33.396004"
+          ]
+        },
+        "x_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83730,
+          "sample_values": [
+            "15.022108",
+            "15.56796",
+            "16.689487",
+            "18.646713",
+            "18.726177"
+          ]
+        },
+        "y_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83677,
+          "sample_values": [
+            "4.919023",
+            "5.178662",
+            "5.474722",
+            "6.3005366",
+            "0.061533943"
+          ]
+        },
+        "z_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83712,
+          "sample_values": [
+            "-29.24953",
+            "-27.32861",
+            "-35.1495",
+            "-46.143562",
+            "-43.48794"
+          ]
+        },
+        "x_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83722,
+          "sample_values": [
+            "-16.286884",
+            "-16.835918",
+            "-18.44547",
+            "-20.711596",
+            "-22.13599"
+          ]
+        },
+        "y_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83673,
+          "sample_values": [
+            "3.6472044",
+            "3.2155297",
+            "3.7225294",
+            "4.956187",
+            "1.3390615"
+          ]
+        },
+        "z_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83727,
+          "sample_values": [
+            "-43.682117",
+            "-40.478836",
+            "-43.184013",
+            "-50.833363",
+            "-49.122425"
+          ]
+        },
+        "x_left_pinky_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83729,
+          "sample_values": [
+            "15.642354",
+            "16.146683",
+            "17.476372",
+            "20.087343",
+            "20.302942"
+          ]
+        },
+        "y_left_pinky_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83666,
+          "sample_values": [
+            "11.247596",
+            "11.883275",
+            "12.433371",
+            "13.214682",
+            "5.7955637"
+          ]
+        },
+        "z_left_pinky_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83732,
+          "sample_values": [
+            "-34.830585",
+            "-32.973595",
+            "-40.404613",
+            "-51.265602",
+            "-48.31342"
+          ]
+        },
+        "x_right_pinky_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83730,
+          "sample_values": [
+            "-17.390242",
+            "-18.15442",
+            "-19.854525",
+            "-22.39618",
+            "-24.818253"
+          ]
+        },
+        "y_right_pinky_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83665,
+          "sample_values": [
+            "9.767575",
+            "8.846813",
+            "9.387528",
+            "11.117719",
+            "8.347067"
+          ]
+        },
+        "z_right_pinky_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83729,
+          "sample_values": [
+            "-50.869335",
+            "-47.663574",
+            "-49.43894",
+            "-56.716682",
+            "-54.570545"
+          ]
+        },
+        "x_left_index_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83736,
+          "sample_values": [
+            "14.843432",
+            "15.344484",
+            "16.760984",
+            "19.506033",
+            "20.175924"
+          ]
+        },
+        "y_left_index_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83639,
+          "sample_values": [
+            "11.138071",
+            "11.754019",
+            "12.835108",
+            "13.926439",
+            "5.978862"
+          ]
+        },
+        "z_left_index_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83710,
+          "sample_values": [
+            "-43.70032",
+            "-41.76713",
+            "-48.772697",
+            "-59.726463",
+            "-56.740665"
+          ]
+        },
+        "x_right_index_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83720,
+          "sample_values": [
+            "-16.209095",
+            "-17.105679",
+            "-19.076092",
+            "-22.201887",
+            "-24.835556"
+          ]
+        },
+        "y_right_index_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83660,
+          "sample_values": [
+            "10.169658",
+            "9.346465",
+            "9.987496",
+            "11.631272",
+            "8.833154"
+          ]
+        },
+        "z_right_index_1": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83726,
+          "sample_values": [
+            "-58.742393",
+            "-55.632793",
+            "-57.664635",
+            "-65.42155",
+            "-63.253147"
+          ]
+        },
+        "x_left_thumb_2": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83732,
+          "sample_values": [
+            "14.339092",
+            "14.756375",
+            "16.137205",
+            "18.744875",
+            "19.431065"
+          ]
+        },
+        "y_left_thumb_2": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83668,
+          "sample_values": [
+            "8.969725",
+            "9.368257",
+            "10.352235",
+            "11.519333",
+            "3.9643235"
+          ]
+        },
+        "z_left_thumb_2": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83735,
+          "sample_values": [
+            "-33.377342",
+            "-31.395643",
+            "-39.022705",
+            "-49.958702",
+            "-47.30274"
+          ]
+        },
+        "x_right_thumb_2": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83729,
+          "sample_values": [
+            "-15.474065",
+            "-16.29058",
+            "-18.08404",
+            "-21.351357",
+            "-23.723755"
+          ]
+        },
+        "y_right_thumb_2": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83659,
+          "sample_values": [
+            "8.467219",
+            "7.61815",
+            "8.254533",
+            "9.766419",
+            "6.8000727"
+          ]
+        },
+        "z_right_thumb_2": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83737,
+          "sample_values": [
+            "-47.36573",
+            "-44.241314",
+            "-47.016907",
+            "-54.848896",
+            "-53.078968"
+          ]
+        },
+        "x_left_hip": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83709,
+          "sample_values": [
+            "6.1818705",
+            "6.114988",
+            "6.125658",
+            "6.2642455",
+            "5.9840097"
+          ]
+        },
+        "y_left_hip": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83765,
+          "sample_values": [
+            "0.2820156",
+            "0.27300814",
+            "0.38944465",
+            "0.2500852",
+            "0.08482532"
+          ]
+        },
+        "z_left_hip": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83728,
+          "sample_values": [
+            "2.969433",
+            "2.827803",
+            "2.0859509",
+            "1.7923378",
+            "2.4128935"
+          ]
+        },
+        "x_right_hip": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83690,
+          "sample_values": [
+            "-6.1818705",
+            "-6.1149745",
+            "-6.1256714",
+            "-6.264232",
+            "-5.9840097"
+          ]
+        },
+        "y_right_hip": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83768,
+          "sample_values": [
+            "-0.2820024",
+            "-0.27300814",
+            "-0.38944465",
+            "-0.2500716",
+            "-0.08481202"
+          ]
+        },
+        "z_right_hip": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83728,
+          "sample_values": [
+            "-2.969433",
+            "-2.827803",
+            "-2.0859509",
+            "-1.7923378",
+            "-2.4128935"
+          ]
+        },
+        "x_left_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83718,
+          "sample_values": [
+            "5.7622557",
+            "5.4485817",
+            "5.4657364",
+            "5.78314",
+            "5.541992"
+          ]
+        },
+        "y_left_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83594,
+          "sample_values": [
+            "35.101257",
+            "34.496147",
+            "34.57939",
+            "34.810345",
+            "34.278755"
+          ]
+        },
+        "z_left_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83741,
+          "sample_values": [
+            "-4.042131",
+            "-3.7002234",
+            "-2.4047718",
+            "-0.35390842",
+            "2.0457733"
+          ]
+        },
+        "x_right_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83723,
+          "sample_values": [
+            "-5.3884983",
+            "-5.48809",
+            "-5.0200486",
+            "-4.685156",
+            "-4.1064796"
+          ]
+        },
+        "y_right_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83585,
+          "sample_values": [
+            "35.342953",
+            "34.81154",
+            "34.286583",
+            "34.84454",
+            "33.78365"
+          ]
+        },
+        "z_right_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83743,
+          "sample_values": [
+            "-8.46164",
+            "-8.086836",
+            "-4.35242",
+            "-1.5570347",
+            "-1.8402241"
+          ]
+        },
+        "x_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83734,
+          "sample_values": [
+            "3.6714349",
+            "4.017675",
+            "4.2145643",
+            "4.468786",
+            "4.6345596"
+          ]
+        },
+        "y_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83595,
+          "sample_values": [
+            "64.72976",
+            "63.401997",
+            "62.46605",
+            "62.898167",
+            "60.53195"
+          ]
+        },
+        "z_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83730,
+          "sample_values": [
+            "39.8802",
+            "45.288086",
+            "46.772163",
+            "50.370113",
+            "50.246304"
+          ]
+        },
+        "x_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83728,
+          "sample_values": [
+            "-5.5517015",
+            "-5.329083",
+            "-4.929604",
+            "-4.9834704",
+            "-4.6645412"
+          ]
+        },
+        "y_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83599,
+          "sample_values": [
+            "63.658203",
+            "61.86257",
+            "61.33722",
+            "61.625828",
+            "59.56543"
+          ]
+        },
+        "z_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83726,
+          "sample_values": [
+            "37.705387",
+            "42.294632",
+            "45.861244",
+            "50.250084",
+            "49.532585"
+          ]
+        },
+        "x_left_heel": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83730,
+          "sample_values": [
+            "2.6492505",
+            "3.092264",
+            "3.2845814",
+            "3.389785",
+            "3.3803232"
+          ]
+        },
+        "y_left_heel": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83585,
+          "sample_values": [
+            "68.67856",
+            "66.99291",
+            "65.966125",
+            "66.373955",
+            "63.53995"
+          ]
+        },
+        "z_left_heel": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83726,
+          "sample_values": [
+            "42.49331",
+            "48.48736",
+            "49.983517",
+            "53.7625",
+            "53.40909"
+          ]
+        },
+        "x_right_heel": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83740,
+          "sample_values": [
+            "-4.885307",
+            "-4.7532754",
+            "-4.517086",
+            "-4.6745396",
+            "-4.098778"
+          ]
+        },
+        "y_right_heel": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83615,
+          "sample_values": [
+            "67.51277",
+            "64.96957",
+            "64.51098",
+            "64.720245",
+            "62.49023"
+          ]
+        },
+        "z_right_heel": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83722,
+          "sample_values": [
+            "40.333897",
+            "45.439384",
+            "48.99688",
+            "53.58178",
+            "52.845634"
+          ]
+        },
+        "x_left_foot_index": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83735,
+          "sample_values": [
+            "5.3567114",
+            "5.492989",
+            "5.4337583",
+            "5.7687497",
+            "5.6330028"
+          ]
+        },
+        "y_left_foot_index": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83567,
+          "sample_values": [
+            "73.93424",
+            "73.17727",
+            "72.199036",
+            "72.69629",
+            "70.438194"
+          ]
+        },
+        "z_left_foot_index": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83742,
+          "sample_values": [
+            "11.78033",
+            "18.108229",
+            "19.192911",
+            "23.325266",
+            "23.657516"
+          ]
+        },
+        "x_right_foot_index": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83725,
+          "sample_values": [
+            "-5.852993",
+            "-6.0383263",
+            "-5.51349",
+            "-5.2384615",
+            "-5.4674754"
+          ]
+        },
+        "y_right_foot_index": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83572,
+          "sample_values": [
+            "73.78203",
+            "72.70349",
+            "71.79309",
+            "72.11217",
+            "70.08317"
+          ]
+        },
+        "z_right_foot_index": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83733,
+          "sample_values": [
+            "9.016774",
+            "14.22201",
+            "17.322145",
+            "21.887375",
+            "22.496626"
+          ]
+        }
+      },
+      "missing_values": 0,
+      "duplicate_rows": 0
+    },
+    "xyz_distances": {
+      "filename": "xyz_distances.csv",
+      "shape": [
+        83922,
+        50
+      ],
+      "size_bytes": 41553531,
+      "columns": {
+        "vid_id": {
+          "dtype": "int64",
+          "non_null_count": 83922,
+          "unique_count": 448,
+          "sample_values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "frame_order": {
+          "dtype": "int64",
+          "non_null_count": 83922,
+          "unique_count": 301,
+          "sample_values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "x_left_shoulder_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83740,
+          "sample_values": [
+            "4.9760056",
+            "5.30266",
+            "6.4144",
+            "7.936945",
+            "8.778828"
+          ]
+        },
+        "y_left_shoulder_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83692,
+          "sample_values": [
+            "44.114964",
+            "44.270767",
+            "44.360535",
+            "45.19396",
+            "39.563152"
+          ]
+        },
+        "z_left_shoulder_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83733,
+          "sample_values": [
+            "-4.439972",
+            "-4.208063",
+            "-2.7765427",
+            "-1.8463097",
+            "-2.7768555"
+          ]
+        },
+        "x_right_shoulder_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83705,
+          "sample_values": [
+            "-4.385234",
+            "-5.2057505",
+            "-6.8307886",
+            "-8.968698",
+            "-10.42512"
+          ]
+        },
+        "y_right_shoulder_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83693,
+          "sample_values": [
+            "44.429726",
+            "44.111786",
+            "44.825504",
+            "46.05608",
+            "41.81799"
+          ]
+        },
+        "z_right_shoulder_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83731,
+          "sample_values": [
+            "-9.199966",
+            "-8.995609",
+            "-5.3336563",
+            "-3.5403023",
+            "-2.7139626"
+          ]
+        },
+        "x_left_hip_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83754,
+          "sample_values": [
+            "-2.5104356",
+            "-2.097313",
+            "-1.9110937",
+            "-1.7954597",
+            "-1.3494501"
+          ]
+        },
+        "y_left_hip_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83640,
+          "sample_values": [
+            "64.44775",
+            "63.12899",
+            "62.076603",
+            "62.648083",
+            "60.44713"
+          ]
+        },
+        "z_left_hip_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83748,
+          "sample_values": [
+            "36.910767",
+            "42.46028",
+            "44.68621",
+            "48.577774",
+            "47.83341"
+          ]
+        },
+        "x_right_hip_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83750,
+          "sample_values": [
+            "0.6301689",
+            "0.78589153",
+            "1.1960673",
+            "1.2807617",
+            "1.3194685"
+          ]
+        },
+        "y_right_hip_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83653,
+          "sample_values": [
+            "63.940205",
+            "62.13558",
+            "61.726665",
+            "61.8759",
+            "59.65024"
+          ]
+        },
+        "z_right_hip_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83749,
+          "sample_values": [
+            "40.67482",
+            "45.122437",
+            "47.947197",
+            "52.042423",
+            "51.94548"
+          ]
+        },
+        "x_left_hip_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83745,
+          "sample_values": [
+            "8.840238",
+            "9.452972",
+            "10.563829",
+            "12.382467",
+            "12.742167"
+          ]
+        },
+        "y_left_hip_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83672,
+          "sample_values": [
+            "4.637007",
+            "4.9056535",
+            "5.085277",
+            "6.0504513",
+            "-0.02329138"
+          ]
+        },
+        "z_left_hip_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83733,
+          "sample_values": [
+            "-32.218964",
+            "-30.156412",
+            "-37.23545",
+            "-47.9359",
+            "-45.900837"
+          ]
+        },
+        "x_right_hip_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83753,
+          "sample_values": [
+            "-10.105014",
+            "-10.720943",
+            "-12.319799",
+            "-14.447363",
+            "-16.151981"
+          ]
+        },
+        "y_right_hip_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83695,
+          "sample_values": [
+            "3.9292068",
+            "3.4885378",
+            "4.1119742",
+            "5.2062583",
+            "1.4238735"
+          ]
+        },
+        "z_right_hip_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83735,
+          "sample_values": [
+            "-40.712685",
+            "-37.65103",
+            "-41.09806",
+            "-49.041023",
+            "-46.70953"
+          ]
+        },
+        "x_left_shoulder_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83736,
+          "sample_values": [
+            "-6.3746676",
+            "-6.247625",
+            "-6.060523",
+            "-6.2409825",
+            "-5.31279"
+          ]
+        },
+        "y_left_shoulder_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83492,
+          "sample_values": [
+            "103.925705",
+            "102.4941",
+            "101.35186",
+            "101.79159",
+            "100.03357"
+          ]
+        },
+        "z_left_shoulder_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83729,
+          "sample_values": [
+            "64.68976",
+            "68.40863",
+            "79.14513",
+            "94.667366",
+            "90.95739"
+          ]
+        },
+        "x_right_shoulder_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83741,
+          "sample_values": [
+            "6.349949",
+            "6.301085",
+            "6.685078",
+            "6.7594275",
+            "7.0463285"
+          ]
+        },
+        "y_right_shoulder_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83510,
+          "sample_values": [
+            "104.44072",
+            "102.75883",
+            "102.44019",
+            "102.72572",
+            "100.04436"
+          ]
+        },
+        "z_right_shoulder_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83736,
+          "sample_values": [
+            "72.18754",
+            "73.77786",
+            "83.7116",
+            "97.543144",
+            "95.94105"
+          ]
+        },
+        "x_left_hip_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83746,
+          "sample_values": [
+            "-22.468754",
+            "-22.950907",
+            "-24.571129",
+            "-26.975842",
+            "-28.119999"
+          ]
+        },
+        "y_left_hip_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83688,
+          "sample_values": [
+            "3.3651888",
+            "2.9425216",
+            "3.3330848",
+            "4.7061014",
+            "1.2542362"
+          ]
+        },
+        "z_left_hip_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83732,
+          "sample_values": [
+            "-46.65155",
+            "-43.30664",
+            "-45.269966",
+            "-52.6257",
+            "-51.53532"
+          ]
+        },
+        "x_right_hip_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83742,
+          "sample_values": [
+            "21.20398",
+            "21.682934",
+            "22.815159",
+            "24.910946",
+            "24.710186"
+          ]
+        },
+        "y_right_hip_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83671,
+          "sample_values": [
+            "5.2010255",
+            "5.45167",
+            "5.8641667",
+            "6.550608",
+            "0.14634597"
+          ]
+        },
+        "z_right_hip_left_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83712,
+          "sample_values": [
+            "-26.280098",
+            "-24.500807",
+            "-33.063553",
+            "-44.351223",
+            "-41.075047"
+          ]
+        },
+        "x_left_elbow_right_elbow": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83723,
+          "sample_values": [
+            "-25.188873",
+            "-25.492401",
+            "-26.249187",
+            "-28.110538",
+            "-28.875887"
+          ]
+        },
+        "y_left_elbow_right_elbow": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83473,
+          "sample_values": [
+            "-0.26503944",
+            "-1.1678486",
+            "-1.1388645",
+            "-0.73277855",
+            "1.041481"
+          ]
+        },
+        "z_left_elbow_right_elbow": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83743,
+          "sample_values": [
+            "-15.094825",
+            "-13.2455845",
+            "-9.292656",
+            "-5.613304",
+            "-8.758717"
+          ]
+        },
+        "x_left_knee_right_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83702,
+          "sample_values": [
+            "-11.150754",
+            "-10.936672",
+            "-10.485785",
+            "-10.468296",
+            "-9.648472"
+          ]
+        },
+        "y_left_knee_right_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83488,
+          "sample_values": [
+            "0.2416954",
+            "0.31539154",
+            "-0.29280853",
+            "0.034194946",
+            "-0.49510574"
+          ]
+        },
+        "z_left_knee_right_knee": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83732,
+          "sample_values": [
+            "-4.4195094",
+            "-4.3866124",
+            "-1.947648",
+            "-1.2031263",
+            "-3.8859973"
+          ]
+        },
+        "x_left_wrist_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83723,
+          "sample_values": [
+            "-31.308992",
+            "-32.403877",
+            "-35.134956",
+            "-39.358307",
+            "-40.862167"
+          ]
+        },
+        "y_left_wrist_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83464,
+          "sample_values": [
+            "-1.2718186",
+            "-1.9631321",
+            "-1.7521925",
+            "-1.3443499",
+            "1.2775276"
+          ]
+        },
+        "z_left_wrist_right_wrist": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83739,
+          "sample_values": [
+            "-14.432587",
+            "-13.150227",
+            "-8.034512",
+            "-4.6898003",
+            "-5.6344833"
+          ]
+        },
+        "x_left_ankle_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83662,
+          "sample_values": [
+            "-9.223137",
+            "-9.346758",
+            "-9.144169",
+            "-9.452256",
+            "-9.299101"
+          ]
+        },
+        "y_left_ankle_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83403,
+          "sample_values": [
+            "-1.0715561",
+            "-1.5394249",
+            "-1.12883",
+            "-1.2723389",
+            "-0.9665222"
+          ]
+        },
+        "z_left_ankle_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83721,
+          "sample_values": [
+            "-2.1748123",
+            "-2.993454",
+            "-0.9109192",
+            "-0.12002945",
+            "-0.7137184"
+          ]
+        },
+        "x_left_hip_avg_left_wrist_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83731,
+          "sample_values": [
+            "-3.1649008",
+            "-3.6778293",
+            "-4.3263683",
+            "-5.293504",
+            "-5.6963587"
+          ]
+        },
+        "y_left_hip_avg_left_wrist_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83741,
+          "sample_values": [
+            "-34.542374",
+            "-34.017323",
+            "-33.58094",
+            "-34.349266",
+            "-30.211918"
+          ]
+        },
+        "z_left_hip_avg_left_wrist_left_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83752,
+          "sample_values": [
+            "-2.3459013",
+            "-6.1519356",
+            "-3.72538",
+            "-0.32093775",
+            "-0.9662874"
+          ]
+        },
+        "x_right_hip_avg_right_wrist_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83738,
+          "sample_values": [
+            "4.737422",
+            "4.967526",
+            "5.561866",
+            "6.583301",
+            "7.416256"
+          ]
+        },
+        "y_right_hip_avg_right_wrist_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83750,
+          "sample_values": [
+            "-33.934704",
+            "-32.812057",
+            "-32.91932",
+            "-33.54108",
+            "-30.537058"
+          ]
+        },
+        "z_right_hip_avg_right_wrist_right_ankle": {
+          "dtype": "float64",
+          "non_null_count": 83922,
+          "unique_count": 83740,
+          "sample_values": [
+            "0.018932104",
+            "-3.7357008",
+            "-3.4245663",
+            "-1.5006984",
+            "-2.6179736"
+          ]
+        }
+      },
+      "missing_values": 0,
+      "duplicate_rows": 0
+    }
+  },
+  "class_distribution": {
+    "jumping_jack": 107,
+    "pull_up": 101,
+    "push_up": 99,
+    "situp": 78,
+    "squat": 63
+  },
+  "total_videos": 448,
+  "landmarks": {
+    "feature_count": 99,
+    "implied_landmarks": 33,
+    "has_visibility": false,
+    "unique_videos": 448,
+    "frames_per_video": {
+      "mean": 187.3,
+      "std": 77.2,
+      "min": 14,
+      "max": 301
+    },
+    "landmark_names": [
+      "left_ankle",
+      "left_ear",
+      "left_elbow",
+      "left_eye",
+      "left_eye_inner",
+      "left_eye_outer",
+      "left_foot_index",
+      "left_heel",
+      "left_hip",
+      "left_index_1",
+      "left_knee",
+      "left_pinky_1",
+      "left_shoulder",
+      "left_thumb_2",
+      "left_wrist",
+      "mouth_left",
+      "mouth_right",
+      "nose",
+      "right_ankle",
+      "right_ear",
+      "right_elbow",
+      "right_eye",
+      "right_eye_inner",
+      "right_eye_outer",
+      "right_foot_index",
+      "right_heel",
+      "right_hip",
+      "right_index_1",
+      "right_knee",
+      "right_pinky_1",
+      "right_shoulder",
+      "right_thumb_2",
+      "right_wrist"
+    ]
+  },
+  "angles": {
+    "columns": [
+      "right_elbow_right_shoulder_right_hip",
+      "left_elbow_left_shoulder_left_hip",
+      "right_knee_mid_hip_left_knee",
+      "right_hip_right_knee_right_ankle",
+      "left_hip_left_knee_left_ankle",
+      "right_wrist_right_elbow_right_shoulder",
+      "left_wrist_left_elbow_left_shoulder"
+    ],
+    "count": 7
+  },
+  "distances_3d": {
+    "columns": [
+      "left_shoulder_left_wrist",
+      "right_shoulder_right_wrist",
+      "left_hip_left_ankle",
+      "right_hip_right_ankle",
+      "left_hip_left_wrist",
+      "right_hip_right_wrist",
+      "left_shoulder_left_ankle",
+      "right_shoulder_right_ankle",
+      "left_hip_right_wrist",
+      "right_hip_left_wrist",
+      "left_elbow_right_elbow",
+      "left_knee_right_knee",
+      "left_wrist_right_wrist",
+      "left_ankle_right_ankle",
+      "left_hip_avg_left_wrist_left_ankle",
+      "right_hip_avg_right_wrist_right_ankle"
+    ],
+    "count": 16
+  },
+  "distances_xyz": {
+    "columns": [
+      "x_left_shoulder_left_wrist",
+      "y_left_shoulder_left_wrist",
+      "z_left_shoulder_left_wrist",
+      "x_right_shoulder_right_wrist",
+      "y_right_shoulder_right_wrist",
+      "z_right_shoulder_right_wrist",
+      "x_left_hip_left_ankle",
+      "y_left_hip_left_ankle",
+      "z_left_hip_left_ankle",
+      "x_right_hip_right_ankle"
+    ],
+    "count": 48,
+    "implied_pairs": 16
+  }
+}

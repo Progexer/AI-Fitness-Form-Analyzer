@@ -1,0 +1,276 @@
+{
+  "model_type": "XGBClassifier",
+  "accuracy": 0.8096,
+  "macro_f1": 0.696,
+  "classes": [
+    "asymmetric_curl",
+    "asymmetric_weight_shift",
+    "elbow_drift",
+    "elbow_flare",
+    "excessive_arch",
+    "excessive_forward_lean",
+    "good_form",
+    "sagging_hips",
+    "shallow_depth",
+    "shallow_squat",
+    "trunk_sway",
+    "uneven_press"
+  ],
+  "confusion_matrix": [
+    [
+      34,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      41,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      127,
+      0,
+      0,
+      0,
+      234,
+      6,
+      4,
+      44,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      26,
+      0,
+      168,
+      14,
+      30,
+      1,
+      0,
+      2,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      87,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      2,
+      0,
+      2,
+      1,
+      1471,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      7,
+      12,
+      19,
+      214,
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      35,
+      0,
+      206,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      21,
+      0,
+      0,
+      31,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      48,
+      0,
+      0,
+      7,
+      104,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "classification_report": {
+    "asymmetric_curl": {
+      "precision": 1.0,
+      "recall": 0.8095238095238095,
+      "f1-score": 0.8947368421052632,
+      "support": 42.0
+    },
+    "asymmetric_weight_shift": {
+      "precision": 0.8913043478260869,
+      "recall": 0.82,
+      "f1-score": 0.8541666666666666,
+      "support": 50.0
+    },
+    "elbow_drift": {
+      "precision": 0.8141025641025641,
+      "recall": 0.30528846153846156,
+      "f1-score": 0.44405594405594406,
+      "support": 416.0
+    },
+    "elbow_flare": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "excessive_arch": {
+      "precision": 0.9333333333333333,
+      "recall": 0.680161943319838,
+      "f1-score": 0.7868852459016393,
+      "support": 247.0
+    },
+    "excessive_forward_lean": {
+      "precision": 0.7631578947368421,
+      "recall": 0.87,
+      "f1-score": 0.8130841121495327,
+      "support": 100.0
+    },
+    "good_form": {
+      "precision": 0.7738032614413467,
+      "recall": 0.9925775978407557,
+      "f1-score": 0.8696423292935265,
+      "support": 1482.0
+    },
+    "sagging_hips": {
+      "precision": 0.9683257918552036,
+      "recall": 0.8262548262548263,
+      "f1-score": 0.8916666666666667,
+      "support": 259.0
+    },
+    "shallow_depth": {
+      "precision": 0.9809523809523809,
+      "recall": 0.8477366255144033,
+      "f1-score": 0.9094922737306843,
+      "support": 243.0
+    },
+    "shallow_squat": {
+      "precision": 0.32978723404255317,
+      "recall": 0.5849056603773585,
+      "f1-score": 0.4217687074829932,
+      "support": 53.0
+    },
+    "trunk_sway": {
+      "precision": 0.9454545454545454,
+      "recall": 0.65,
+      "f1-score": 0.7703703703703704,
+      "support": 160.0
+    },
+    "uneven_press": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 15.0
+    },
+    "accuracy": 0.8095859145745028,
+    "macro avg": {
+      "precision": 0.7000184461454046,
+      "recall": 0.615537410364121,
+      "f1-score": 0.637989096535274,
+      "support": 3067.0
+    },
+    "weighted avg": {
+      "precision": 0.8271198890316184,
+      "recall": 0.8095859145745028,
+      "f1-score": 0.7913449110967631,
+      "support": 3067.0
+    }
+  }
+}
